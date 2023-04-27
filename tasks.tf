@@ -37,6 +37,7 @@ module "guestbook_server_task_definition" {
   container_memory             = "512"
   container_memory_reservation = "512"
   task_role_arn                = aws_iam_role.guestbook_task_execution.arn
+  tags                         = local.common_tags
 }
 
 module "guestbook_client_task_definition" {
@@ -49,4 +50,5 @@ module "guestbook_client_task_definition" {
   container_memory             = "512"
   container_memory_reservation = "512"
   task_role_arn                = aws_iam_role.guestbook_task_execution.arn
+  tags                         = local.common_tags
 }
