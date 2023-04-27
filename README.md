@@ -29,6 +29,9 @@ Some links to modules, info, demos, container definitions, blogs, or anything el
  - https://registry.terraform.io/namespaces/cn-terraform
  - https://github.com/brietsparks/guestbook
  - https://ecsworkshop.com/
+ - https://hub.docker.com/r/brietsparks/guestbook-server
+ - https://hub.docker.com/r/brietsparks/guestbook-client
+ - https://github.com/cloudposse/terraform-aws-ecs-container-definition
 
 ## Resources
 ```
